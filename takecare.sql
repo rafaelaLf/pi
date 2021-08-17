@@ -85,7 +85,7 @@ CREATE TABLE `cadastro_responsavel` (
   `numero` varchar(240) NOT NULL,
   `complemento` varchar(240) NOT NULL,
   `email` varchar(240) NOT NULL,
-  `senha` varchar(20) NOT NULL,
+  `senha` varchar(240) NOT NULL,
   `link` varchar(2048) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
